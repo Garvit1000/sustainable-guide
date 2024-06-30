@@ -1,0 +1,57 @@
+/* SustainabilityForm.css */
+
+.sustainability-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  
+  .sustainability-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sustainability-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sustainability-form label {
+    margin-bottom: 10px;
+  }
+  
+  .sustainability-form select {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .sustainability-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .sustainability-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .personalized-tips {
+    margin-top: 20px;
+  }
+  
+  .personalized-tips h3 {
+    margin-bottom: 10px;
+  }
+  
+  .personalized-tips ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  

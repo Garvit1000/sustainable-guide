@@ -1,0 +1,85 @@
+/* PersonalizedGuide.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+  }
+  
+  .personalized-guide {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  input, select {
+    padding: 8px;
+    font-size: 1em;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .tips {
+    margin-top: 20px;
+  }
+  
+  .tips h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .tips ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tips li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
